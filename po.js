@@ -8,6 +8,7 @@ function generateQR() {
         imgBox.classList.add("show-img");
     } 
     else {
+        alert("Please Enter the Value");
         qrtxt.classList.add("error");
     setTimeout(function () {
       qrtxt.classList.remove("error");
